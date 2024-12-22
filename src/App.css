@@ -3,10 +3,7 @@ body{
   color: azure;
 }
 
-/* .movie-app > .row{
-  overflow: auto ;
-  flex-wrap: nowrap;
-} */
+
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
@@ -31,7 +28,17 @@ body{
   opacity: 0;
 	bottom: 0;
 	font-size: 20px;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 
+}
+
+.modal-content {
+  background-color: #fbf6fb;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.modal-header, .modal-footer {
+  border: none;
 }
