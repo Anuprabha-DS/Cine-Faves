@@ -42,7 +42,7 @@ function App() {
 
   const fetchMovieDetails = async (imdbID) => {
     try {
-      const response = await fetch(`http://www.omdbapi.com/?apikey=cc00c1d1&i=${imdbID}&plot=full`);
+      const response = await fetch(`https://www.omdbapi.com/?apikey=cc00c1d1&i=${imdbID}&plot=full`);
       const data = await response.json();
       setSelectedMovie(data);
     } catch (error) {
